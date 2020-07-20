@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Login from "../components/Auth/Login"
+import Logout from "../components/Auth/Logout"
 
 import { withApollo } from "../lib/withApollo"
 import { useFetchUser } from "../lib/user"
@@ -15,6 +16,7 @@ const Index = () => {
 
   return (
     <div>
+      <Logout />
       <div>You're logged in!</div>
     </div>
   )
