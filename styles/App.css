@@ -1,0 +1,10 @@
+.collectionWrapper {
+    position: relative;
+    width: 100%;
+}
+
+.sectionHeader {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
