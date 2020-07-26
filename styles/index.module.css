@@ -1,0 +1,9 @@
+.book {
+    height: 150px;
+    margin-top: 10%;
+}
+
+.logoutButton {
+    position: absolute;
+    left: 100px;
+}

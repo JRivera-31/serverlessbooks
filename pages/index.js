@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Login from "../components/Auth/Login"
 import Logout from "../components/Auth/Logout"
+import { Header } from "semantic-ui-react"
+import styles from "../styles/index.module.css"
 
 import { withApollo } from "../lib/withApollo"
 import { useFetchUser } from "../lib/user"
@@ -17,10 +19,14 @@ const Index = () => {
   return (
     <div>
       <Head>
-        <title></title>
+        <title>Books</title>
       </Head>
-      <Logout />
-      <div>You're logged in!</div>
+      <Header as="h3" block>
+          Books
+          <img className={styles.book} src="/images/books.png"></img>
+          <Logout className={styles.logoutButton} />
+      </Header>
+      
     </div>
   )
 }

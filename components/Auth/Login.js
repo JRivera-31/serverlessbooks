@@ -1,5 +1,4 @@
 import Router from "next/router"
-import React from "react"
 import { Container, Button } from "semantic-ui-react"
 import styles from "../../styles/login.module.css"
 
