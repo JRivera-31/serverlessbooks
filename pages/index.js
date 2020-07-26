@@ -16,6 +16,9 @@ const Index = () => {
 
   return (
     <div>
+      <Head>
+        <title></title>
+      </Head>
       <Logout />
       <div>You're logged in!</div>
     </div>
