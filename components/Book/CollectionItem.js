@@ -3,6 +3,12 @@ import { useMutation } from "@apollo/react-hooks"
 
 import { GET_MY_BOOKS } from "./BookCollection"
 
-const CollectionItem = () => {
-    
+const CollectionItem = ({ index, todo, client }) => {
+    const 
+
+    return (
+        <div>
+
+        </div>
+    )
 }
